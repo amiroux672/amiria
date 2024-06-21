@@ -3,7 +3,7 @@ module.exports.config = {
 	version: "1.0.1",
 	hasPermssion: 0,
 	credits: "Mirai Team",
-	description: "Mã hoá văn bản bằng mã QR",
+	description: "",
 	commandCategory: "other",
 	usages: "[text]",
 	cooldowns: 5,
@@ -15,10 +15,10 @@ module.exports.config = {
 
 module.exports.languages = {
 	"vi": {
-		"missingInput": "Hãy nhập đầu vào để có thể tạo qr code"
+		"missingInput": "الرجاء إدخال الإدخال لتتمكن من إنشاء رمز الاستجابة السريعة"
 	},
 	"en": {
-		"missingInput": "Enter input to create qr code"
+		"missingInput": "الرجاء إدخال الإدخال لتتمكن من إنشاء رمز الاستجابة السريعة"
 	}
 }
 
